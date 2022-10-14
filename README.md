@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>{number}</p>
+      <button onClick={() => {
+        setNumber(number + 1);
+      }}>Plus</button>
+            <button onClick={() => {
+        setNumber(number - 1);
+      }}>Minus</button>
+      const [number, setNumber] = useState(0);
